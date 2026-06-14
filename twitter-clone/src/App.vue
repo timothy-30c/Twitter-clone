@@ -1,4 +1,19 @@
-<script setup>
+<template>
+  <router-view />
+</template>
+
+
+
+
+
+
+
+<!-- ここから下に書いてあるコードは本来はviewsに新しくファイルを作ってそこに書き込むもの、
+ここにアプリの本体を書き込むと後々ログインページなど作った時にルーティングが出来ない
+なぜならここはこのアプリ全体の基盤となる場所だからルーティングして他のページを作っても
+ここに書き込んだものしか読み込まない -->
+
+<!-- <script setup>
 import {ref, onMounted } from 'vue'
 import TweetCard from './components/TweetCard.vue'
 const tweets = ref([])
@@ -61,4 +76,4 @@ const deleteTweet = async (id) =>{
       :deleteTweet="deleteTweet"
       />
     </div>
-</template>
+</template> -->
