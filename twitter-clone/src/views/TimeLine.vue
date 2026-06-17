@@ -130,8 +130,8 @@ onMounted(() => {
 
 .post-button {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  bottom: 20px;
+  right: 250px;
   width: 120px;
   height: 45px;
   border-radius: 9999px;
