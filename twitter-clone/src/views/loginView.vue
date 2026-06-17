@@ -47,7 +47,7 @@ const goTimeline = () => {
 </script>
 
 <template>
-  <div class="login-container">
+  <div><!--class="login-container">-->
 
     <h1>ログイン</h1>
 
@@ -81,6 +81,151 @@ const goTimeline = () => {
 </template>
 
 <style scoped>
+
+input{
+
+width:100%;
+
+max-width:820px;
+
+height:74px;
+
+display:block;
+
+margin:20px auto;
+
+padding:0 28px;
+
+box-sizing:border-box;
+
+border-radius:22px;
+
+border:
+
+1px solid
+#d4d7de;
+
+background:
+
+linear-gradient(
+180deg,
+#ffffff,
+#f7f8fb
+);
+
+font-size:24px;
+
+color:#262626;
+
+transition:
+0.2s;
+
+box-shadow:
+
+inset 0 1px 2px
+rgba(255,255,255,0.9),
+
+0 2px 10px
+rgba(0,0,0,0.03);
+
+}
+
+input::placeholder{
+
+color:#8e8e93;
+
+}
+
+input:focus{
+
+outline:none;
+
+background:white;
+
+border:
+
+2px solid
+#0095f6;
+
+box-shadow:
+
+0 0 0 5px
+rgba(0,149,246,0.12);
+
+}
+
+
+
+button{
+
+width: 50%;
+
+max-width:820px;
+
+height:74px;
+
+display:block;
+
+margin:28px auto 0;
+
+border:none;
+
+border-radius:999px;
+
+background:
+
+linear-gradient(
+180deg,
+#498cd9,#2f6fd6
+);
+
+color:white;
+
+font-size:28px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:
+0.2s;
+
+box-shadow:
+
+0 6px 18px
+rgba(0,95,246,0.18);
+
+}
+
+
+
+button:hover{
+
+transform:
+
+translateY(-1px);
+
+background:
+
+linear-gradient(
+180deg,
+#2a6fe0,
+#1659c0
+);
+
+}
+
+
+
+button:active{
+
+transform:
+
+scale(0.985);
+}
+</style>
+
+<!--
 .login-container {
   max-width: 400px;
   margin: 80px auto;
@@ -94,29 +239,4 @@ const goTimeline = () => {
 
   text-align: center;
 }
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-button {
-  padding: 10px 16px;
-  border-radius: 8px;
-  border: none;
-
-  background: #1d9bf0;
-  color: white;
-
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-button:hover {
-  opacity: 0.9;
-}
-</style>
+-->
