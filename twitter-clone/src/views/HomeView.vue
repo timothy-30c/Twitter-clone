@@ -7,18 +7,18 @@
 
       <div class="intro-content">
 
-      <h1>
-      Twitter Clone
-      </h1>
+        <h1>
+        Twitter Clone
+        </h1>
 
-      <p>
-      思ったことを、すぐ共有。
-      </p>
+        <p>
+        思ったことを、すぐ共有。
+        </p>
 
-      </div>
+        <div class="description">
+        友達の投稿を見て、学校の様子をのぞいてみよう。
+        </div>
 
-      <div class="description">
-      友達の投稿を見て、学校の様子をのぞいてみよう。
       </div>
 
     </section>
