@@ -1,9 +1,130 @@
-<!-- ここはコンテンツ紹介とかを書く -->
+<template>
+
+  <div class="welcome">
+
+    <!--左６０％-->
+    <section class="intro">
+
+      <div class="intro-content">
+
+      <h1>
+      Twitter Clone
+      </h1>
+
+      <p>
+      思ったことを、すぐ共有。
+      </p>
+
+      </div>
+
+      <div class="description">
+      友達の投稿を見て、学校の様子をのぞいてみよう。
+      </div>
+
+    </section>
+
+    <section class="login">
+      
+      <LoginView />
+
+    </section>
+
+  </div>
+
+</template>
+
+
+<script setup>
+
+  import LoginView from "./LoginView.vue"
+
+</script>
+
+
+<style scoped>
+
+  .welcome{
+    display: flex;
+    height: 100vh;
+    background: #fafafa;
+  }
+  
+  .intro{
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+    background: linear-gradient(180deg,#ffffff,#f6f8fb);
+  }
+
+  .intro-content{
+    max-width: 600px;
+  }
+
+  .intro h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: #111;
+    text-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+
+  .intro p{
+    font-size: 42px;
+    margin-bottom: 18px;
+    color: #222;
+    text-shadow: 0 4px 16px rgba(0,0,0,0.15)
+  }
+  
+  .description{
+    font-size: 42px;
+    line-height: 2;
+    color: #666;
+    text-shadow: 0 4px 16px rgba(0,0,0,0.15)
+  }
+
+  .login{
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-left: 1px solid #e5e7eb;
+    background: white;
+    }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--前のやつの記録
 <template>
   <div class="home">
 
     <header class="top-header">
-<!--左上配置：プロフィールボタン-->
+
      <button
      class="profile-button"
      @click="goProfile">
@@ -17,14 +138,14 @@
 
      </button>
 
-<!--上中央配置：タイトル-->   
+  
     <div class ="logo">
 
     Twitter Clone
     
     </div>
 
-<!--右上配置：ログアウトボタン--> 
+
     <button
     class="logout-button"
     @click="logout">
@@ -34,7 +155,7 @@
     </button>
 
     </header>
-<!--タイムライン-->
+
     <div class="content">
 
       <TimeLine />
@@ -178,4 +299,4 @@
   justify-content: center;
 }
 
-</style>
+</style>-->
