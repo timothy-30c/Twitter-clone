@@ -1,5 +1,5 @@
 <!-- ここは触っちゃいかん -->
-<template>
+<template> 
   <router-view />
 </template>
 
